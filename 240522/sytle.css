@@ -87,7 +87,7 @@ body{
 }
   #email{
     position: absolute;
-    top: 75%;
+    top: 70%;
     left: 45%;
 
   }
@@ -110,10 +110,25 @@ body{
     display: inline-block;
 }
 
+.mail{
+  display: inline-block;
+}
+
 #number{
     position: absolute;
     bottom: 16px;
-    left: 42%;
+    left: 40%;
+    font-size: 18px;
+    color: #04383c;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: italic;
+}
+
+#email1{
+    position: absolute;
+    bottom: 90px;
+    left: 21%;
     font-size: 18px;
     color: #04383c;
     font-family: "Bebas Neue", sans-serif;
@@ -128,6 +143,13 @@ body{
     display: block;
 }
 
+#email1{
+  display: none;
+}
+
+.mail:hover #email1{
+  display: block;
+}
 
 .turn>div {
     position: absolute;
